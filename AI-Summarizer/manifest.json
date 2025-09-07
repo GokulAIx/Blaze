@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Blaze - AI Web Page Summarizer and ChatBot",
+  "version": "1.0",
+  "description": "Summarize any webpage or chat with AI",
+  "permissions": ["activeTab", "scripting", "sidePanel", "storage"],
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+    "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
