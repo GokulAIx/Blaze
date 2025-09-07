@@ -64,7 +64,7 @@ async function sendChatMessage(isInitialMessage = false) {
 
         addMessage("system", "Analyzing page for chat...");
         try {
-            const response = await fetch("http://127.0.0.1:5000/index", {
+            const response = await fetch("https://blaze-backend-bgm8.onrender.com/index", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ page_content: pageText }),
@@ -88,7 +88,7 @@ async function sendChatMessage(isInitialMessage = false) {
     addMessage("system", "Thinking...");
 
     try {
-        const response = await fetch("http://127.0.0.1:5000/chat", {
+        const response = await fetch("https://blaze-backend-bgm8.onrender.com/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ session_id: chatState.sessionId, question: question }),
@@ -116,7 +116,7 @@ async function handleSummarize() {
     }
     contentArea.innerHTML = "<p>Summarizing...</p>";
     try {
-        const response = await fetch("http://127.0.0.1:5000/summarize", {
+        const response = await fetch("https://blaze-backend-bgm8.onrender.com/summarize", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ text: pageText }),
