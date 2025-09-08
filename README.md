@@ -71,9 +71,9 @@ The backend server handles all the AI-heavy lifting.
     HUGGINGFACEHUB_ACCESS_KEY="YOUR_HUGGINGFACEHUB_API_TOKEN"
     ```
 
-4.  **Run the Backend Server:**
+4.  **Run the Backend Server: with **
     ```sh
-     run the **backend.py** file
+     python backend.py
     ```
     Keep this terminal window open. The backend is now running and ready to receive requests from the extension.
 
