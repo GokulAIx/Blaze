@@ -136,6 +136,11 @@ button:hover {
     display: flex;
     gap: 8px;
 }
+.footer-image {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+}
 
 #chatInput {
     flex-grow: 1;
