@@ -99,6 +99,12 @@ This repository contains the code for the Chrome extension.
 
 You are all set! Navigate to any article or webpage, right click on the Blaze icon, and start summarizing and chatting.
 
+## Contact Info
+- **Name:** P Gokul Sree Chandra  
+- **Email:** polavarapugokul@gmail.com  
+- **LinkedIn:** [Gokul Sree Chandra](https://www.linkedin.com/in/gokulsreechandra/)  
+- **Portfolio:** [GokulAIx](https://gokulaix.vercel.app/)
+- 
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
