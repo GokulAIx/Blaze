@@ -41,6 +41,8 @@ Blaze uses a separate backend for AI processing and a frontend Chrome extension 
 
 The backend server handles all the AI-heavy lifting.
 
+**You won't be able to Push directly, you have to first Fork this repo and make a pull request.**
+
 1.  **Fork & Clone the Backend Repository:**
     First, navigate to the backend repository and click "Fork". Then, clone your forked repository to your local machine.
 
